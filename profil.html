@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Asset/css/profil.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Rancho&family=Roboto:wght@300;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Profile</title>
+</head>
+
+<body class=" bg-[#F4F7FF]">
+    <!-- nav -->
+    <nav class="bg-white">
+        <div class="flex justify-between items-center px-12">
+            <div class="items-center gap-5">
+                <img src="/ASSET/img/Logo-wetick.png" alt="">
+            </div>
+            <ul class="flex gap-12 items-center">
+                <li>Home</li>
+                <li>Create Event</li>
+                <li>Location</li>
+            </ul>
+            <div class="flex gap-4 items-center">
+                <div class="border-solid border-2 border-indigo-600 rounded-full p-1">
+                    <img class="w-11 h-11 rounded-full" src="/ASSET/img/Avatar-profil.jpg" alt="">
+                </div>
+                <div>Jhon Tomson</div>
+            </div>
+        </div>
+    </nav>
+    <!-- main -->
+    <main class="bg-[#F4F7FF] flex">
+        <div class="w-60 mr-48 ml-24 my-12">
+            <div class="flex gap-3 items-center mb-12">
+                <div class="border-solid border-2 border-indigo-600 rounded-full p-1">
+                    <img class="w-11 h-11 rounded-full" src="/ASSET/img/Avatar-profil.jpg" alt="">
+                </div>
+                <div>
+                    <div class=" font-bold">Jhon tomson</div>
+                    <div class="text-xs">Entrepreneur, ID</div>
+                </div>
+            </div>
+            <div>
+                <ul class="flex-col">
+                    <li class="flex gap-6 mb-9"><i data-feather="user"></i>Profile</li>
+                    <ul class="flex-col ml-6 mb-9">
+                        <li class="flex gap-6 mb-9"><i data-feather="credit-card"></i>Card</li>
+                        <li class="flex gap-6 mb-9"><i data-feather="edit-3"></i>Edit Profile</li>
+                        <li class="flex gap-6 mb-9"><i data-feather="unlock"></i>Change Password</li>
+                    </ul>
+                    <li class="flex gap-6 mb-9"><i data-feather="list"></i>My Booking</li>
+                    <li class="flex gap-6 mb-9"><i data-feather="heart"></i>My Wishlist</li>
+                    <li class="flex gap-6 mb-9"><i data-feather="settings"></i>Setting</li>
+                    <li class="flex gap-6 mb-9"><i data-feather="log-out"></i>Logout</li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex-1 my-12">
+            <div class="flex">
+                <div class="bg-white px-12 py-11 rounded-lg flex">
+                    <form>
+                        <div class="text-xl font-bold tracking-wide mb-12">Profile</div>
+                        <div class="flex items-center gap-[107px] mt-[67px]">
+                            <label for="Name">Name</label>
+                            <input class="h-12 border px-7 border-black rounded-lg w-80" type="password" name="Name"
+                                id="Name" placeholder="Jhon Thomson">
+                        </div>
+                        <div class="flex items-center mt-[50px]">
+                            <label for="Username">Username</label>
+                            <div class="ml-[73px] flex">
+                                <div class="opacity-50">@jhont0</div>
+                                <a class="ml-[15px] text-blue-700" href="">edit</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-[50px]">
+                            <label for="email">Email</label>
+                            <div class="flex ml-[111px]">
+                                <div class="opacity-50">jhont0@mail.com</div>
+                                <a class="ml-[15px] text-blue-700" href="">edit</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-[50px]">
+                            <label for="Phone number">Phone number</label>
+                            <div class="flex ml-[40px]">
+                                <div class="opacity-50">081234567890</div>
+                                <a class="ml-[15px] text-blue-700" href="">edit</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-[50px]">
+                            <label for="Gender">Gender</label>
+                            <div class="flex ml-[98px]">
+                                <input type="checkbox" id="male" name="gender" value="male">
+                                <label class="ml-[13px]" for="male">Male</label>
+                                <input class="ml-[50px]" type="checkbox" id="famel" name="gender" value="famel">
+                                <label class="ml-[13px]" for="famel">Famel</label>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-[50px]">
+                            <label for="Profession">Profession</label>
+                            <div class="flex ml-[72px] opacity-50">
+                                <select class="h-12 border px-2 border-black rounded-lg w-80" name="Enterpreanur" id="Enterpreanur">
+                                    <option value="volvo">Enterpreanur</option>
+                                    <option value="saab">Artist</option>
+                                    <option value="opel">Influancer</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-[50px]">
+                            <label for="">Nationality</label>
+                            <div class="flex ml-[67px] opacity-50">
+                                <select class="h-12 border px-2 border-black rounded-lg w-80" name="nationaly" id="nationaly">
+                                    <option value="volvo">Indonesia</option>
+                                    <option value="saab">Malaysia</option>
+                                    <option value="opel">Singapura</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-[50px]">
+                            <label for="Birthday Date">Birthday Date</label>
+                            <div class="flex ml-[46px]">
+                                <div class="opacity-50">24 / 10 / 2000</div>
+                                <a class="ml-[15px] text-blue-700" href="">Edit</a>
+                            </div>
+                        </div>
+                        <div class="bg-[#3366FF] w-[315px] h-[61px] rounded-lg flex items-center justify-center mt-[50px]">
+                            <button class="text-white font-bold" type="submit">Save</button>
+                        </div>
+                    </form>
+                    <div class="flex flex-col ml-60 ">
+                       <div class="flex justify-center items-center">
+                        <div class="rounded-full  border-4 border-indigo-600 p-2">
+                            <img class="w-36 h-36 rounded-full" src="/ASSET/img/Avatar-profil.jpg" alt="">
+                        </div>
+                       </div>
+                        <div class="bg-white border-2 border-[#3366FF] rounded-[10px] w-[255px] h-[40px] mt-12">
+                            <div class="flex items-center justify-center mt-1">
+                                <a class="text-[#3366FF] font-bold" href="">Choose Photo</a>
+                            </div>
+                        </div>
+                        <div class="mt-6 opacity-50">
+                            <div>Image size: max, 2 MB</div>
+                            <div class="mt-3.5">Image formats: .JPG, .JPEG, .PNG</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </main>
+    <!-- footer -->
+    <div class="flex md:justify-center py-[175px] bg-[#F4F7FF]">
+        <div class="flex flex-col md:flex-row ml-[20px]">
+            <div class="md:mx-[100px]">
+                <div>
+                    <img src="/Asset/img/Logo-wetick.png" alt="">
+                </div>
+                <div class="mt-[30px] text-[16px]"><b class="font">Find events you love with our</b></div>
+                <div class="mt-[19px]">
+                    <div class="flex">
+                        <img class="mx-[11px]" src="/Asset/img/fb-icon.png" alt="">
+                        <img class="mx-[11px]" src="/Asset/img/wa-icon.png" alt="">
+                        <img class="mx-[11px]" src="/Asset/img/ig-icon.png" alt="">
+                        <img class="mx-[11px]" src="/Asset/img/twt-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="md:mx-[100px]">
+                <div class="text-[16px]">
+                    <a href="">
+                        <div class="my-[15px]"><b class="font">Wetick</b></div>
+                    </a>
+                    <div class="opacity-50">
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">About Us</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Features</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Blog</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Payments</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Mobile App</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:mx-[100px]">
+                <div class="text-[16px]">
+                    <a href="">
+                        <div class="my-[15px]"><b class="font">Features</b></div>
+                    </a>
+                    <div class="opacity-50">
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Booking</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Create Event</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Discover</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Register</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:mx-[100px]">
+                <div class="text-[16px]">
+                    <a href="">
+                        <div class="my-[15px]"><b class="font">Company</b></div>
+                    </a>
+                    <div class="opacity-50">
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Partnership</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Help</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Terms of Service</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="fonr">Privacy Policy</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="my-[15px]">
+                                <p class="font">Sitemap</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" bg-[#F4F7FF]">
+        <div class="md:mx-[390px] my-[75px] ml-[20px]">
+            <div class="text-[20px]">
+                <div>&copy; <b class="font">2020 Wetick All Rights Reserved</b></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
