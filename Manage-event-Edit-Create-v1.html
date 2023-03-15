@@ -12,10 +12,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/feather-icons"></script>
-    <title>Manage Event</title>
+    <title>Manage Event Edit</title>
 </head>
 
-<body class=" bg-[#F4F7FF]">
+<body class=" bg-[#F4F7FF] relative">
+    <div class="absolute bg-black/40 w-full h-full justify-center items-center flex">
+        <div class="bg-white w-[1135px] h-[726px] z-50 rounded-[20px]">
+            <div>
+                <div class="mt-[34px] ml-[54px] mb-[42px]">
+                    <div class=" text-[24px] font-bold">Create Event</div>
+                </div>
+                <div class="flex ">
+                    <div class="ml-[54px]">
+                        <div class="flex flex-col">
+                            <label class="mb-[9px]" for="Name">Name</label>
+                            <input
+                                class="border-2 boeder-black-100 w-[481px] h-[55px] rounded-[10px] pl-[20px] mb-[30px]"
+                                type="text" name="Name" id="Name" placeholder="Input Name Event ...">
+                        </div>
+                        <div class="flex flex-col">
+                            <label class="mb-[9px]" for="Name">Location</label>
+                            <input
+                                class="border-2 boeder-black-100 w-[481px] h-[55px] rounded-[10px] pl-[20px] mb-[30px]"
+                                type="text" name="Name" id="Name" placeholder="Select Location">
+                        </div class="flex flex-col">
+                        <div class="flex flex-col">
+                            <label class="mb-[9px]" for="Name">Price</label>
+                            <input
+                                class="border-2 boeder-black-100 w-[481px] h-[55px] rounded-[10px] pl-[20px] mb-[30px]"
+                                type="text" name="Name" id="Name" placeholder="Input Price ...">
+                        </div>
+                    </div>
+                    <div class="ml-[64px]">
+                        <div class="flex flex-col">
+                            <label class="mb-[9px]" for="Name">Category</label>
+                            <input
+                                class="border-2 boeder-black-100 w-[481px] h-[55px] rounded-[10px] pl-[20px] mb-[30px]"
+                                type="text" name="Name" id="Name" placeholder="Select Category">
+                        </div>
+                        <div class="flex flex-col">
+                            <label class="mb-[9px]" for="Name">Date Time Show</label>
+                            <input
+                                class="border-2 boeder-black-100 w-[481px] h-[55px] rounded-[10px] pl-[20px] mb-[30px]"
+                                type="text" name="Name" id="Name" placeholder="01/01/2022">
+                        </div>
+                        <div class="flex flex-col">
+                            <label class="mb-[9px]" for="Name">Image</label>
+                            <input
+                                class="border-2 boeder-black-100 w-[481px] h-[55px] rounded-[10px] pl-[20px] mb-[30px]"
+                                type="text" name="Name" id="Name" placeholder="Chose File ...">
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-[54px]">
+                    <div class="flex flex-col">
+                        <label class="mb-[9px]" for="Detail">Detail</label>
+                        <input
+                            class="border-2 boeder-black-100 w-[1027px] h-[95px] rounded-[10px] pl-[20px] mb-[30px] pb-[40px]"
+                            type="text" name="Detail" id="Detail" placeholder="Input Detail ...">
+                    </div>
+                </div>
+                <div class="mt-[10px] ml-[765px]">
+                    <a href="">
+                        <div class="bg-[#3366FF] w-[315px] h-[61px] hover:bg-[#3366FF]/80 flex justify-center items-center rounded-[15px]">
+                            <div class="text-white font-bold">Save</div>
+                        </div>    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- nav -->
     <nav class="bg-white">
         <div class="flex justify-between items-center px-12">
@@ -55,8 +122,8 @@
                         <li class="flex gap-6 mb-9"><i data-feather="edit-3"></i>Edit Profile</li>
                         <li class="flex gap-6 mb-9"><i data-feather="unlock"></i>Change Password</li>
                     </ul>
-                    <li class="flex gap-6 mb-9 text-[#3366FF]"><i data-feather="plus-circle"></i>Create Event</li>
-                    <li class="flex gap-6 mb-9"><i data-feather="list"></i>My Booking</li>
+                    <li class="flex gap-6 mb-9"><i data-feather="plus-circle"></i>Create Event</li>
+                    <li class="flex gap-6 mb-9  text-[#3366FF]"><i data-feather="list"></i>My Booking</li>
                     <li class="flex gap-6 mb-9"><i data-feather="heart"></i>My Wishlist</li>
                     <li class="flex gap-6 mb-9"><i data-feather="settings"></i>Setting</li>
                     <li class="flex gap-6 mb-9"><i data-feather="log-out"></i>Logout</li>
@@ -66,110 +133,18 @@
         <div class="flex-1 my-12">
             <div class="flex">
                 <div class="bg-white rounded-[20px] flex">
-                    <div class="w-[1100px] h-[850px]">
-                        <div class="flex justify-between mb-12">
+                    <div class="w-[1100px] h-[750px]">
+                        <div class="flex justify-between">
                             <div class="mt-[43px] ml-[50px] font-bold text-[20px]">Manage Event</div>
                             <div
                                 class="flex gap-5 bg-[#EAF1FF] mt-[43px] mr-[50px] justify-center items-center h-[50px] w-[125px] rounded-[20px]">
                                 <div class="text-[#3366FF]">Create</div>
                             </div>
                         </div>
-                        <div class="flex ml-12">
-                            <div
-                                class="flex-col flex justify-center items-center border-0 border-white-600 w-[50px] h-[70px] rounded-[15px] shadow-lg">
-                                <div class="text-[#FF8900]">15</div>
-                                <div class="text-[12px] opacity-50">Wed</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="font-bold text-[24px] mb-[15px]">Sights & Sounds Exhibition</div>
-                                <div class="text-[14px] opacity-50 mb-[10px]">
-                                    <div>Jakarta, Indonesia</div>
-                                    <div>Wed, 15 Nov, 4:00 PM</div>
-                                </div>
-                                <div class="flex gap-5">
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Detail</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Update</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="w-[974px] ml-12 mb-6">
-                        <div class="flex ml-12">
-                            <div
-                                class="flex-col flex justify-center items-center border-0 border-white-600 w-[50px] h-[70px] rounded-[15px] shadow-lg">
-                                <div class="text-[#FF8900]">15</div>
-                                <div class="text-[12px] opacity-50">Wed</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="font-bold text-[24px] mb-[15px]">Sights & Sounds Exhibition</div>
-                                <div class="text-[14px] opacity-50 mb-[10px]">
-                                    <div>Jakarta, Indonesia</div>
-                                    <div>Wed, 15 Nov, 4:00 PM</div>
-                                </div>
-                                <div class="flex gap-5">
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Detail</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Update</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="w-[974px] ml-12 mb-6">
-                        <div class="flex ml-12">
-                            <div
-                                class="flex-col flex justify-center items-center border-0 border-white-600 w-[50px] h-[70px] rounded-[15px] shadow-lg">
-                                <div class="text-[#FF8900]">15</div>
-                                <div class="text-[12px] opacity-50">Wed</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="font-bold text-[24px] mb-[15px]">Sights & Sounds Exhibition</div>
-                                <div class="text-[14px] opacity-50 mb-[10px]">
-                                    <div>Jakarta, Indonesia</div>
-                                    <div>Wed, 15 Nov, 4:00 PM</div>
-                                </div>
-                                <div class="flex gap-5">
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Detail</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Update</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="w-[974px] ml-12 mb-6">
-                        <div class="flex ml-12">
-                            <div class="ml-[70px]">
-                                <div class="font-bold text-[24px] mb-[15px]">Sights & Sounds Exhibition</div>
-                                <div class="text-[14px] opacity-50 mb-[10px]">
-                                    <div>Jakarta, Indonesia</div>
-                                    <div>Wed, 15 Nov, 4:00 PM</div>
-                                </div>
-                                <div class="flex gap-5">
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Detail</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Update</a>
-                                    </div>
-                                    <div class="mb-[25px] text-[#3366FF]">
-                                        <a href="#">Delete</a>
-                                    </div>
-                                </div>
+                        <div class="flex flex-col justify-center items-center mt-[269px]">
+                            <div class="text-[28px] font-bold">No tickets bought</div>
+                            <div class="mt-[15px] text-[16px] opacity-50 w-[355px] h-[62px] flex text-center">
+                                <div>It appears you haven’t bought any tickets yet. Maybe try searching these?</div>
                             </div>
                         </div>
                     </div>
