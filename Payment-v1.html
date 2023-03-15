@@ -15,10 +15,10 @@
     <title>Payment</title>
 </head>
 
-<body class=" bg-[#F4F7FF]">
+<body class=" md:bg-[#F4F7FF]">
     <!-- nav -->
-    <nav class="bg-white">
-        <div class="flex justify-between items-center px-12">
+    <nav class="bg-white flex-col">
+        <div class="md:flex justify-between items-center px-12">
             <div class="items-center gap-5">
                 <img src="/ASSET/img/Logo-wetick.png" alt="">
             </div>
@@ -36,9 +36,9 @@
         </div>
     </nav>
     <main>
-        <div class="flex justify-center mt-12">
-            <div class="w-[1126px] bg-white flex flex justify-around  rounded-[30px]">
-                <div class="mt-16 mb-16">
+        <div class="md:flex flex-col md:justify-center md:items-center md:mt-12">
+            <div class="md:w-[1126px] md:block w-full bg-white md:flex md:justify-around rounded-[30px]">
+                <div class="mt-16 mb-16 ml-5">
                     <div class="font-bold mb-12 text-[20px]">
                         <div>Payment Method</div>
                     </div>
@@ -81,14 +81,14 @@
                         <select class="ml-[137px]" name="" id=""></select>
                     </div>
                 </div>
-                <div class="mt-16 font-bold">
-                    <div class="font-bold text-[20px] mb-12">
+                <div class="mt-16 ml-5 mr-5 font-bold">
+                    <div class="font-bold text-[20px] md:mb-12">
                         <div>Ticket Detail</div>
                     </div>
                     <div>
                         <div class="flex mb-3.5">
-                            <div>Event</div>
-                            <div class="ml-[121px] text-[#3366FF]">Sights & Sounds Exhibition</div>
+                            <div class="md:block hidden">Event</div>
+                            <div class="md:ml-[121px] text-[#3366FF] hidden md:block">Sights & Sounds Exhibition</div>
                         </div>
                         <div class="flex mb-3.5">
                             <div>Ticket Section</div>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="flex mb-3.5">
                             <div>Quantity</div>
-                            <div class="ml-[288px] text-[#3366FF]">2</div>
+                            <div class="md:ml-[288px] ml-[288px] text-[#3366FF]">2</div>
                         </div>
                         <div class="flex mb-3.5">
                             <div>Total Payment</div>
@@ -104,7 +104,7 @@
                         </div>
                         <div class="mt-12">
                             <a href="">
-                                <div class="bg-[#3366FF] h-14 flex justify-center items-center rounded-[15px] text-white" >Payment</div>
+                                <div class="bg-[#3366FF] w-[315px] h-14 flex justify-center items-center rounded-[15px] text-white" >Payment</div>
                             </a>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
         </div>
     </main>
     <!-- footer -->
-    <div class="flex md:justify-center py-[175px] bg-[#F4F7FF]">
+    <div class="flex md:justify-center py-[175px] md:bg-[#F4F7FF]">
         <div class="flex flex-col md:flex-row ml-[20px]">
             <div class="md:mx-[100px]">
                 <div>

@@ -275,3 +275,16 @@ body{
     font-size: 18px;
     /* background-color:#F4F7FF; */
 }
+
+
+@media screen and (max-width: 480px) {
+    .flex-container{
+        flex-direction: column;
+        padding-top: 10;
+    }
+    .flex-container>div{
+        margin: 10px;
+    }
+    .wrapper-event{
+    }
+  }

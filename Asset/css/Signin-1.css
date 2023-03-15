@@ -217,3 +217,9 @@ body {
     display: flex;
     border-radius: 6px;
 }
+
+@media screen and (max-width: 480px) {
+    #section1 {
+      display: none;
+    }
+  }
