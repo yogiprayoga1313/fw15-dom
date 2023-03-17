@@ -13,7 +13,7 @@ const Biodata = {
     ],
     skill: [
         {
-            skillName: ['Html, Css, JS'],
+            skillName: 'Html, Css, JS',
             level:'beginner',
         },
     ],
