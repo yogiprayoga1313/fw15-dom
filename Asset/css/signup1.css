@@ -160,6 +160,7 @@ body {
     font-family: poppins;
     font-size: 15px;
     box-shadow: 3px 5px 20px #748DA6;
+    margin-bottom: 50px;
 }
 
 .my-button:hover {
@@ -179,8 +180,16 @@ body {
     box-shadow: 3px 5px 20px #748DA6;
 }
 
+.main-button{
+    margin-bottom: 100px;
+}
+
 @media screen and (max-width: 762px) {
     #section1 {
       display: none;
+    }
+    .my-button{
+        top: 760px;
+        margin-bottom: 50px;
     }
   }
