@@ -49,9 +49,10 @@
                 class="md:w-[1126px] md:h-[925px] md:block w-full bg-white md:flex md:justify-around rounded-[30px] mt-[50px]">
                 <div class="md:flex justify-between">
                     <div class="mt-[100px] ml-[20px]">
-                        <div>
+                        <div class="md:block hidden">
                             <div>
-                                <img class="md:w-[375px] w-[350px] md:h-[486px] mr-[10px] rounded-[40px]" src="/Asset/img/Bitmap (1).png" alt="">
+                                <img class="md:w-[375px] w-[350px] md:h-[486px] mr-[10px] rounded-[40px]"
+                                    src="/Asset/img/Bitmap (1).png" alt="">
                             </div>
                         </div>
                         <div class="md:flex items-center justify-center mt-12 md:block hidden">
@@ -59,9 +60,10 @@
                             <div class="font-semibold text-[20px]">Add to Wishlist</div>
                         </div>
                     </div>
-                    <div class="ml-[30px] mt-[100px] ">
-                        <div>
-                            <div class="font-semibold text-[24px] w-[233px] mb-[20px]">Sights & Sounds Exhibition</div>
+                    <div class="md:ml-[30px] mt-[100px] ">
+                        <div class="md:block hidden">
+                            <div class="font-semibold text-[24px] w-[233px] mb-[20px] md:ml-[30px]">Sights & Sounds Exhibition
+                            </div>
                             <div class="md:flex justify-center  items-center md:mt-[30px]">
                                 <div class="flex mb-[10px] text-[16px]">
                                     <div>
@@ -76,31 +78,66 @@
                                     <div class="ml-[10px]">Wed, 15 Nov, 4:00 PM</div>
                                 </div>
                             </div>
-                            <div class="mt-[30px] text-[16px]">Attendees</div>
-                            <div class="flex mt-[11px]">
+                            <div class="mt-[30px] text-[16px]md: md:ml-[30px]">Attendees</div>
+                            <div class="flex mt-[11px] md:ml-[30px]">
                                 <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar.png" alt="">
                                 <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar-1.png" alt="">
                                 <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar-2.png" alt="">
                                 <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar-3.png " alt="">
                             </div>
                         </div>
-                        <hr class="md:w-[462px] w-[315px] mt-[26px]">
-                        <div class="mt-[25px] text-[20px] font-semibold">Event Detail</div>
-                        <div class="mt-[15px] text-[14px] opacity-70">
-                            <div class="md:w-[462px] w-[355px] h-[40px]">After his controversial art exhibition "Tear and Consume"
-                                back in November 2018, in which guests were invited to tear up…</div>
+                        <div class="md:hidden block flex justify-center items-center">
+                            <div class="bg-gray-400 w-[375px] h-[486px] flex rounded-[50px] bg-cover bg-center overflow-hidden"
+                                style="background-image: url(/Asset/img/Bitmap\ \(1\).png);">
+                                <div class="bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,5,50)] w-full self-end">
+                                    <div class="mb-[110px] p-[20px] pr-[5px] tracking-widest">
+                                        <div class="text-white">
+                                            <div class="text-[26px] font-semibold ">Sights & Sound Exhibition</div>
+                                            <div class="flex gap-3 mt-[10px]">
+                                                <div>
+                                                    <i data-feather="map-pin" color="red"></i>
+                                                </div>
+                                                <div>Jakarta, Indonesia</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-white flex gap-3 mt-[10px]">
+                                            <div>
+                                                <i data-feather="clock" color="red"></i>
+                                            </div>
+                                            <div>Wed, 15 Nov, 4:00 PM</div>
+                                        </div>
+                                        <div class="mt-[25px] text-[14px] text-white">Attendees</div>
+                                        <div class="flex mt-[11px]">
+                                            <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar.png" alt="">
+                                            <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar-1.png" alt="">
+                                            <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar-2.png" alt="">
+                                            <img class=" mr-[-10px] z-10 " src="/Asset/img/Avatar-3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="md:mt-[10px] mt-[30px] text-[14px] text-blue-600">
-                            <a href="">Read More</a>
-                        </div>
-                        <div class="mt-[25px] text-[20px] font-semibold">Location</div>
-                        <div class="mt-[15px]">
-                            <img class="w-[315px] h-[151px] rounded-[20px]" src="/Asset/img/maps.png" alt="">
-                        </div>
-                        <div class="mt-[50px]">
-                            <div
-                                class="bg-[#748DA6] hover:bg-[#748DA6]/80 w-[315px] h-[55px] text-white rounded-[20px] flex justify-center items-center ">
-                                <a href="/Booking-Page-v1.html" class="font-semibold">Buy Tickets</a>
+                        <hr class="md:w-[462px] w-[315px] mt-[26px] md:block hidden">
+                        <div class="ml-[30px] md:mr-[30px]">
+                            <div class="mt-[25px] text-[20px] font-semibold">Event Detail</div>
+                            <div class="mt-[15px] text-[14px] opacity-70">
+                                <div class="md:w-[462px] w-[315px] h-[40px]">After his controversial art exhibition
+                                    "Tear
+                                    and Consume"
+                                    back in November 2018, in which guests were invited to tear up…</div>
+                            </div>
+                            <div class="md:mt-[10px] mt-[30px] text-[14px] text-blue-600">
+                                <a href="">Read More</a>
+                            </div>
+                            <div class="mt-[25px] text-[20px] font-semibold">Location</div>
+                            <div class="mt-[15px]">
+                                <img class="w-[315px] h-[151px] rounded-[20px]" src="/Asset/img/maps.png" alt="">
+                            </div>
+                            <div class="mt-[50px]">
+                                <div
+                                    class="bg-[#748DA6] hover:bg-[#748DA6]/80 w-[315px] h-[55px] text-white rounded-[20px] flex justify-center items-center ">
+                                    <a href="/Booking-Page-v1.html" class="font-semibold">Buy Tickets</a>
+                                </div>
                             </div>
                         </div>
                     </div>
