@@ -23,10 +23,8 @@
 <body>
     <div id="section1">
         <div class="main-img">
-            <img class="img-sec1" src="/Asset/img/ToyFaces_Tansparent_BG_29.png"
-                alt="image1">
-            <img class="img-sec1-2" src="/Asset/img/ToyFaces_Tansparent_BG_49.png"
-                alt="image2">
+            <img class="img-sec1" src="/Asset/img/ToyFaces_Tansparent_BG_29.png" alt="image1">
+            <img class="img-sec1-2" src="/Asset/img/ToyFaces_Tansparent_BG_49.png" alt="image2">
         </div>
         <div>
             <div class="linear1"></div>
@@ -46,37 +44,45 @@
             <h2>Sign In</h2>
             <p>Hi, Welcome back to Urticket! </p>
         </div>
-        <div class="main-div3">
-            <input class="input1" placeholder="Full Name" type="text">
-            <input class="input2" placeholder="Email" type="Email" name="Email">
-            <div>
-                <input class="input3" placeholder="Password" type="password" name="" id="">
+        <form id="login">
+            <div class="main-div3">
+                <div>
+                    <input id="fullname" class="input1" placeholder="Full Name" type="text">
+                </div>
+                <div>
+                    <input id="email" class="input2" placeholder="Email" type="Email" name="Email">
+                </div>
+                <div>
+                    <input id="password" class="input3" placeholder="Password" type="password" name="" id="">
+                </div>
+                <!-- <div id="alert" class="alert"></div> -->
             </div>
-        </div>
-        <div class="main-div4">
-            <label>
-                <a class="mian-anchor" href="/Sign-In-Forget-Password-v1.html"><b>Forgot Password?</b></a>
-            </label>
-        </div>
-        <div>
-            <a href="#" class="my-button"><b>Sign In</b></a>
-        </div>
+            <div class="main-div4">
+                <label>
+                    <a class="mian-anchor" href="/Sign-In-Forget-Password-v1.html"><b>Forgot Password?</b></a>
+                </label>
+            </div>
+            <div class="main-button">
+                <button type="submit" class="my-button"><b>Sign In</b></button>
+            </div>
+        </form>
         <div class="signin-choice">
             <div class="signin-choice-text">or sign in with</div>
         </div>
         <div class="icon-sosmed-signin">
             <div class="google-icon">
                 <div>
-                   <a href=""><img src="/Asset/img/google-icon-sogn-in.png" alt=""></a> 
+                    <a href=""><img src="/Asset/img/google-icon-sogn-in.png" alt=""></a>
                 </div>
             </div>
             <div class="fb-icon">
                 <div>
-                   <a href=""><img src="/Asset/img/fb-icon-sign-in.png" alt=""></a> 
+                    <a href=""><img src="/Asset/img/fb-icon-sign-in.png" alt=""></a>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="/Asset/Week 4-Manipulasi DOM/login.js"></script>
 
 </html>

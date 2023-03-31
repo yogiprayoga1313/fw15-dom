@@ -135,20 +135,49 @@ body {
     color: rgb(0, 0, 0);
 }
 
-
+.main-button{
+    position: absolute;
+    top: 660px;
+    
+    
+}
+.my-button{
+    position: absolute;
+    cursor: pointer;
+    background-color: #748da6;
+    width: 274px;
+    height: 40px;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+    font-family: poppins;
+    box-shadow: 3px 5px 20px #748DA6;
+}
+.my-button:hover{
+    cursor: pointer;
+    background-color: #748da6d0;
+    width: 274px;
+    height: 40px;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+    font-family: poppins;
+    /* box-shadow: 3px 5px 20px #748da6dd; */
+}
 .main-div4 {
     position: relative;
     display: flex;
     justify-content: end;
     top: 270px;
-    /* margin-left: 13px; */
     font-family: poppins;
     font-size: 15px;
     margin-right: 15px;
 }
 
 
-.my-button {
+/* .my-button {
     position: absolute;
     top: 670px;
     background-color: #748DA6;
@@ -180,7 +209,7 @@ body {
     font-family: poppins;
     font-size: 15px;
     box-shadow: 3px 5px 20px #748da6dc;
-}
+} */
 
 
 .signin-choice-text{

@@ -18,10 +18,8 @@
 <body>
     <div id="section1">
         <div class="main-img">
-            <img class="img-sec1" src="/Asset/img/ToyFaces_Tansparent_BG_29.png"
-                alt="image1">
-            <img class="img-sec1-2" src="/Asset/img/ToyFaces_Tansparent_BG_49.png"
-                alt="image2">
+            <img class="img-sec1" src="/Asset/img/ToyFaces_Tansparent_BG_29.png" alt="image1">
+            <img class="img-sec1-2" src="/Asset/img/ToyFaces_Tansparent_BG_49.png" alt="image2">
         </div>
         <div>
             <div class="linear1"></div>
@@ -41,26 +39,37 @@
             <h2>Sign Up</h2>
             <p>Already have an account? <a class="mian-anchor" href="/Signin-Page-v1-2.html"><b>Log In</b></a></p>
         </div>
-        <div class="main-div3">
-            <input class="input1" placeholder="Full Name" type="text">
-            <input class="input2" placeholder="Email" type="Email" name="Email">
-            <div>
-                <input class="input3" placeholder="Password" type="password" name="" id="">
+        <form id="signup">
+            <div class="main-div3">
+                <div>
+                    <input id="fullname" class="input1" placeholder="Full Name" type="fullname" name="fullname">
+                </div>
+                <div>
+                    <input id="email" class="input2" placeholder="Email" type="Email" name="email">
+                </div>
+                <div>
+                    <input id="password" class="input3" placeholder="Password" type="password" name="" id="">
+                </div>
+                <div>
+                    <input id="confirm" class="input4" placeholder="Confirm Password" type="password" name="" id="">
+                </div>
+                <div id="alert" class="alert"></div>
             </div>
-            <div>
-                <input class="input4" placeholder="Confirm Password" type="password" name="" id="">
+            <div class="main-div4">
+                <label>
+                    <input type="checkbox" id="checkboxsignin">
+                    <span class="checkmarking">Accept terms and condition</span>
+                </label>
             </div>
-        </div>
-        <div class="main-div4">
-            <label>
-                <input type="checkbox">
-                <span class="checkmarking">Accept terms and condition</span>
-            </label>
-        </div>
-        <div class="main-button">
-            <a href="#" class="my-button"><b>Sign Up</b></a>
-        </div>
+            <!-- <div class="main-button">
+            <a href="#" class="my-button" type="sumbit"><b>Sign Up</b></a>
+        </div> -->
+            <div class="main-button">
+                <button id="buttonsignin" class="my-button" type="submit" disabled><b>Sign Up</b></button>
+            </div>
+        </form>
     </div>
 </body>
+<script src="/Asset/Week 4-Manipulasi DOM/script.js"></script>
 
 </html>
