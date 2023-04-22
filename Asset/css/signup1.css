@@ -138,15 +138,17 @@ body {
 
 .main-div4 {
     position: relative;
-    top: 290px;
+    margin-top: 10px;
+    top: 0px;
     margin-left: 13px;
     font-family: poppins;
     font-size: 15px;
 }
 
 .main-button{
-    position: absolute;
-    top: 790px;
+    /* position: absolute; */
+    margin-top: 20px;
+    top: 0px;
     
     
 }

@@ -1,6 +1,6 @@
 const dataArrayEvent = [
     {
-        title: 'See it in Gold Class',
+        title: 'New Lunching Product',
         date: 'Sun, 20 Nov, 09.00 PM',
         images: '/Asset/img/bitmap2.png'
     },
@@ -15,22 +15,22 @@ const dataArrayEvent = [
         images: '/Asset/img/bitmap4.jpg'
     },
     {
-        title: 'Sights & Sound Exhibition',
+        title: 'Corporate Events Unlimited',
         date: 'Wed, 15 Des, 9.00 PM',
         images: '/Asset/img/bitmap5.jpg'
     },
     {
-        title: 'See it in Gold Class',
+        title: 'Anything Events',
         date: 'Sat, 20 Des, 03.00 PM',
         images: '/Asset/img/bitmap6.jpg'
     },
     {
-        title: 'Sights & Sound Exhibition',
+        title: 'SIntegrity Corporate Events',
         date: 'Sun, 04 Des, 10.00 PM',
         images: '/Asset/img/bitmap3.jpg'
     },
     {
-        title: 'See it in Gold Class',
+        title: 'All Party Planning & Management',
         date: 'Sun, 04 Des, 9.00 PM',
         images: '/Asset/img/bitmap6.jpg'
     },
